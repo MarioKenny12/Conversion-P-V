@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Unidades</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h2>Conversor de unidades de Presión y Volumen</h2>
+        <p>Tome en cuenta que no se puede hacer conversiones de Presión a Volumen</p>
+        <p>A partir de las unidades (Torr) empiezan las variables de Volumen</p>
+        <div class="fila">
+            <span>Convertir de</span>
+            <select name="unidad1" id="unidad1">
+                <!--Unidades para presión-->
+                <option value="Psi">Psi</option>
+                <option value="Pa">Pa</option>
+                <option value="Bar">Bar</option>
+                <option value="Atm">Atm</option>
+                <option value="Torr">Torr</option>
+                <!--Unidades para Volumen-->
+                <option value="Litros">Litros</option>
+                <option value="Barriles">Barriles</option>
+                <option value="ft^3">ft^3</option>
+                <option value="m^3">m^3</option>
+                <option value="Galon">Galon</option>
+
+            </select>
+            </span>a</span>
+            <select name="unidad2" id="unidad2">
+                <!--Unidades para presión-->
+                <option value="Psi">Psi</option>
+                <option value="Pa">Pa</option>
+                <option value="Bar">Bar</option>
+                <option value="Atm">Atm</option>
+                <option value="Torr">Torr</option>
+                <!--Unidades para Volumen-->
+                <option value="Litros">Litros</option>
+                <option value="Barriles">Barriles</option>
+                <option value="ft^3">ft^3</option>
+                <option value="m^3">m^3</option>
+                <option value="Galon">Galon</option>
+            </select>
+        </div>
+        <input type="number" id="valor" placeholder="valor">
+        <div class="resultado" id="resultado">
+            Resultado
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
